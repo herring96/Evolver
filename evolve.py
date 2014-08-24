@@ -16,15 +16,6 @@ def start ():
     print ('-'*25 + 'DotUghh 1.0' + '-'*25 + '\n');
     print ('Try to hold a conversation with the computer.');
     print ('Instructions:\n\t-you can ask questions (i.e. who, what, where, why, etc.) or make statements\n\t-to correct the program: type "Correction: a *noun* is defined: ***"\n\t-type \'quit\' to quit');
-    print('     -------------------------------------   ');
-    print('     |  -------               --------   | '   );
-    print('     |  |  -   |             |   -    |  |  ');
-    print('     |  --------             ----------  |    ');
-    print('     |             |------|              |      ');
-    print('     |             |------|              |      ');
-    print('     |                                   | ');
-    print('     |       |------------------|        |    ');
-    print('     |______________------_______________|   ');
     print(' ');
 
     name = input('Hello. What is your name?: ');
