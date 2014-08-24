@@ -11,5 +11,6 @@ The 'evolve.py' file is the main file and references functions from the 'extras.
 
 Furthermore to actually use this program you will need the 3 other files I have titled "defs.txt", 
 "responses.txt", and "users.txt".
-
+ 
+ *Finally this program was written with python 3.0.1 so ensure you have the latest version for it to work properly* 
 
