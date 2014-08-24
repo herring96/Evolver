@@ -1,0 +1,28 @@
+[
+['Hello(.*)|Hi(.*)|Hey(.*)',   				['Hello.',
+								'Hi there.',
+								'What\'s up!',
+								'Hey.', 'Yo what\'s 									happening', 'Hi']],
+
+['How are you(.*)|How are you doing(.*)', 	           ['I am very good', 'I am great!',
+							   'I\'m doing great.']],
+
+['Whats going on(.*)|What\'s going on(.*)|Whats happening(.*)|What\'s happening(.*)|Whats up|What\'s up',       				['Not much', 'Dude I am having such a great time in here you have no idea', 'Just hanging out', 'Nothing much', 'Just chilling']], 
+
+['Thats good(.*)|That\'s good(.*)|Thats cool(.*)', 		['Yes it is', 'Indeed']],
+
+['Bye(.*)|Goodbye(.*)|See you(.*)', 		['bye!', 'see ya later!', 'Adios Amigo', 
+						'goodbye', 'talk to you soon', 'DONT LEAVE ME!']],
+
+['Very good(.*)|Great(.*)|Nice(.*)|Correct(.*)',    ['thanks!', 'I learned from the best', 							'Thank you!', 'Yes!']],
+
+['Cool(.*)|Sweet(.*)|Awesome(.*)',                  ['yes it is','radical breh']], 
+
+['Glad(.*)|I\'m glad(.*)|Im glad(.*)',           ['I\'m glad too', 'thanks', 'cool']], 
+
+['How many(.*)|How old(.*)', ['1','2','3','4','5','6','7','8','9','10','100','200','300','400','2910', '234','678','8382', '3.14159', '6.02x10^23', '1000', '3453']],
+
+['Thanks(.*)|Thankyou(.*)|Thank you(.*)',      ['No problem', 'You are welcome', 'Sure thing buddy', 'Sure', 'You\'re Welcome']]
+
+
+]
