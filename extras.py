@@ -1,4 +1,4 @@
-import re, ast, webbrowser, time;
+import re, ast, webbrowser, time, os.path;
 from random import choice, randrange, randint;
 #all others are built-in
 
@@ -8,11 +8,13 @@ def read_file (file_to_read):
     converts string in file to list, dictionary, etc.
     returns converted text
     """
-
-    file = open(file_to_read);
-    str_txt = file.read();
-    converted = ast.literal_eval(str_txt);
-    file.close();
+    if os.path.isfile(file_to_read):
+        file = open(file_to_read);
+        str_txt = file.read();
+        converted = ast.literal_eval(str_txt);
+        file.close();
+    else:
+        return False;
 
     return (converted);
 
